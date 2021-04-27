@@ -101,14 +101,11 @@
 		720F803A263744CE00EFF664 /* GarageBandProject */ = {
 			isa = PBXGroup;
 			children = (
-				720F803B263744CE00EFF664 /* AppDelegate.swift */,
-				720F803D263744CE00EFF664 /* SceneDelegate.swift */,
-				720F803F263744CE00EFF664 /* ViewController.swift */,
-				720F8041263744CE00EFF664 /* Main.storyboard */,
+				725D52B626389360004613FA /* Model */,
+				725D52B826389378004613FA /* View */,
+				725D52B92638937E004613FA /* Controller */,
 				720F8047263744CF00EFF664 /* Assets.xcassets */,
-				720F8049263744CF00EFF664 /* LaunchScreen.storyboard */,
 				720F804C263744CF00EFF664 /* Info.plist */,
-				720F8044263744CE00EFF664 /* GarageBandProject.xcdatamodeld */,
 			);
 			path = GarageBandProject;
 			sourceTree = "<group>";
@@ -129,6 +126,33 @@
 				720F8062263744CF00EFF664 /* Info.plist */,
 			);
 			path = GarageBandProjectUITests;
+			sourceTree = "<group>";
+		};
+		725D52B626389360004613FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				720F8044263744CE00EFF664 /* GarageBandProject.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		725D52B826389378004613FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				720F8041263744CE00EFF664 /* Main.storyboard */,
+				720F8049263744CF00EFF664 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		725D52B92638937E004613FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				720F803B263744CE00EFF664 /* AppDelegate.swift */,
+				720F803D263744CE00EFF664 /* SceneDelegate.swift */,
+				720F803F263744CE00EFF664 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
