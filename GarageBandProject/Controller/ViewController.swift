@@ -7,10 +7,12 @@
 
 import UIKit
 import CoreData
+import AVFoundation
 
 class ViewController: UIViewController, UITableViewDelegate {
     
     var list: [NSManagedObject] = []
+    var player: AVAudioPlayer?
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -56,7 +58,7 @@ class ViewController: UIViewController, UITableViewDelegate {
                   let taskToSave = textField.text else {
                 return
             }
-            
+            self.playAudio()
             self.save(taskText: taskToSave)
             self.tableView.reloadData()
         }
@@ -109,6 +111,34 @@ class ViewController: UIViewController, UITableViewDelegate {
             print(error)
         }
         
+    }
+    
+    func playAudio(){
+        if let player = player, player.isPlaying{
+            
+        }else{
+            
+            let urlString = Bundle.main.path(forResource: "escrevendo", ofType: "mp3")
+            
+            do {
+                try AVAudioSession.sharedInstance().setMode(.default)
+                try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+                
+                guard let urlString = urlString else {
+                    return
+                }
+                
+                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
+                
+                guard let player = player else {
+                    return
+                }
+                
+                player.play()
+            } catch {
+                print("Ops, deu errado!")
+            }
+        }
     }
     
 }

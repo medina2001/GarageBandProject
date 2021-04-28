@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720219D02639F9AB00918B9B /* escrevendo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 720219CF2639F9AB00918B9B /* escrevendo.mp3 */; };
 		720F803C263744CE00EFF664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F803B263744CE00EFF664 /* AppDelegate.swift */; };
 		720F803E263744CE00EFF664 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F803D263744CE00EFF664 /* SceneDelegate.swift */; };
 		720F8040263744CE00EFF664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F803F263744CE00EFF664 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		720219CF2639F9AB00918B9B /* escrevendo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = escrevendo.mp3; path = ../../../../../../Desktop/escrevendo.mp3; sourceTree = "<group>"; };
 		720F8038263744CE00EFF664 /* GarageBandProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarageBandProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		720F803B263744CE00EFF664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		720F803D263744CE00EFF664 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		720219C32639EEE000918B9B /* Audio Samples */ = {
+			isa = PBXGroup;
+			children = (
+				720219CF2639F9AB00918B9B /* escrevendo.mp3 */,
+			);
+			path = "Audio Samples";
+			sourceTree = "<group>";
+		};
 		720F802F263744CE00EFF664 = {
 			isa = PBXGroup;
 			children = (
@@ -148,9 +158,10 @@
 		725D52B92638937E004613FA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				720219C32639EEE000918B9B /* Audio Samples */,
+				720F803F263744CE00EFF664 /* ViewController.swift */,
 				720F803B263744CE00EFF664 /* AppDelegate.swift */,
 				720F803D263744CE00EFF664 /* SceneDelegate.swift */,
-				720F803F263744CE00EFF664 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +271,7 @@
 			files = (
 				720F804B263744CF00EFF664 /* LaunchScreen.storyboard in Resources */,
 				720F8048263744CF00EFF664 /* Assets.xcassets in Resources */,
+				720219D02639F9AB00918B9B /* escrevendo.mp3 in Resources */,
 				720F8043263744CE00EFF664 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
