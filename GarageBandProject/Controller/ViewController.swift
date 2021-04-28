@@ -115,7 +115,7 @@ class ViewController: UIViewController, UITableViewDelegate {
     
     func playAudio(){
         if let player = player, player.isPlaying{
-            
+            player.stop()
         }else{
             
             let urlString = Bundle.main.path(forResource: "escrevendo", ofType: "mp3")
