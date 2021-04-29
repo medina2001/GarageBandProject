@@ -60,7 +60,7 @@ class ViewController: UIViewController, UITableViewDelegate {
             }
             
             // Muda o parâmetro audio para o nome do arquivo de audio que você importou
-            self.playAudio(audio: "somEscrever")
+//            self.playAudio(audio: <#String#>)
             self.save(taskText: taskToSave)
             self.tableView.reloadData()
         }
@@ -161,7 +161,9 @@ extension ViewController: UITableViewDataSource {
         if editingStyle == .delete {
             self.delete(object: list[indexPath.row])
             list.remove(at: indexPath.row)
-            self.playAudio(audio: "somEscrever")
+            
+//            self.playAudio(audio: <#String#>)
+            
             tableView.deleteRows(at: [indexPath], with: .fade)
             tableView.reloadData()
         } else if editingStyle == .insert {

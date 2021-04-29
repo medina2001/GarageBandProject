@@ -16,7 +16,6 @@
 		720F804B263744CF00EFF664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720F8049263744CF00EFF664 /* LaunchScreen.storyboard */; };
 		720F8056263744CF00EFF664 /* GarageBandProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F8055263744CF00EFF664 /* GarageBandProjectTests.swift */; };
 		720F8061263744CF00EFF664 /* GarageBandProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F8060263744CF00EFF664 /* GarageBandProjectUITests.swift */; };
-		72AD4C8F263A495900FE69EF /* somEscrever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72AD4C8E263A495900FE69EF /* somEscrever.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		720F805C263744CF00EFF664 /* GarageBandProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarageBandProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720F8060263744CF00EFF664 /* GarageBandProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageBandProjectUITests.swift; sourceTree = "<group>"; };
 		720F8062263744CF00EFF664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72AD4C8E263A495900FE69EF /* somEscrever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = somEscrever.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 		720219C32639EEE000918B9B /* Audio Samples */ = {
 			isa = PBXGroup;
 			children = (
-				72AD4C8E263A495900FE69EF /* somEscrever.mp3 */,
 			);
 			path = "Audio Samples";
 			sourceTree = "<group>";
@@ -272,7 +269,6 @@
 				720F804B263744CF00EFF664 /* LaunchScreen.storyboard in Resources */,
 				720F8048263744CF00EFF664 /* Assets.xcassets in Resources */,
 				720F8043263744CE00EFF664 /* Main.storyboard in Resources */,
-				72AD4C8F263A495900FE69EF /* somEscrever.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
