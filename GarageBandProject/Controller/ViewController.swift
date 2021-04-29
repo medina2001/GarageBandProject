@@ -161,7 +161,7 @@ extension ViewController: UITableViewDataSource {
         if editingStyle == .delete {
             self.delete(object: list[indexPath.row])
             list.remove(at: indexPath.row)
-            
+            self.playAudio(audio: "somEscrever")
             tableView.deleteRows(at: [indexPath], with: .fade)
             tableView.reloadData()
         } else if editingStyle == .insert {
