@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		720219D02639F9AB00918B9B /* escrevendo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 720219CF2639F9AB00918B9B /* escrevendo.mp3 */; };
 		720F803C263744CE00EFF664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F803B263744CE00EFF664 /* AppDelegate.swift */; };
 		720F803E263744CE00EFF664 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F803D263744CE00EFF664 /* SceneDelegate.swift */; };
 		720F8040263744CE00EFF664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F803F263744CE00EFF664 /* ViewController.swift */; };
@@ -17,6 +16,7 @@
 		720F804B263744CF00EFF664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720F8049263744CF00EFF664 /* LaunchScreen.storyboard */; };
 		720F8056263744CF00EFF664 /* GarageBandProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F8055263744CF00EFF664 /* GarageBandProjectTests.swift */; };
 		720F8061263744CF00EFF664 /* GarageBandProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F8060263744CF00EFF664 /* GarageBandProjectUITests.swift */; };
+		72AD4C8F263A495900FE69EF /* somEscrever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72AD4C8E263A495900FE69EF /* somEscrever.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		720219CF2639F9AB00918B9B /* escrevendo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = escrevendo.mp3; path = ../../../../../../Desktop/escrevendo.mp3; sourceTree = "<group>"; };
 		720F8038263744CE00EFF664 /* GarageBandProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarageBandProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		720F803B263744CE00EFF664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		720F803D263744CE00EFF664 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		720F805C263744CF00EFF664 /* GarageBandProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarageBandProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720F8060263744CF00EFF664 /* GarageBandProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageBandProjectUITests.swift; sourceTree = "<group>"; };
 		720F8062263744CF00EFF664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AD4C8E263A495900FE69EF /* somEscrever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = somEscrever.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		720219C32639EEE000918B9B /* Audio Samples */ = {
 			isa = PBXGroup;
 			children = (
-				720219CF2639F9AB00918B9B /* escrevendo.mp3 */,
+				72AD4C8E263A495900FE69EF /* somEscrever.mp3 */,
 			);
 			path = "Audio Samples";
 			sourceTree = "<group>";
@@ -271,8 +271,8 @@
 			files = (
 				720F804B263744CF00EFF664 /* LaunchScreen.storyboard in Resources */,
 				720F8048263744CF00EFF664 /* Assets.xcassets in Resources */,
-				720219D02639F9AB00918B9B /* escrevendo.mp3 in Resources */,
 				720F8043263744CE00EFF664 /* Main.storyboard in Resources */,
+				72AD4C8F263A495900FE69EF /* somEscrever.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

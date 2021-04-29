@@ -58,7 +58,9 @@ class ViewController: UIViewController, UITableViewDelegate {
                   let taskToSave = textField.text else {
                 return
             }
-            self.playAudio()
+            
+            // Muda o parâmetro audio para o nome do arquivo de audio que você importou
+            self.playAudio(audio: "somEscrever")
             self.save(taskText: taskToSave)
             self.tableView.reloadData()
         }
@@ -113,12 +115,12 @@ class ViewController: UIViewController, UITableViewDelegate {
         
     }
     
-    func playAudio(){
+    func playAudio(audio: String){
         if let player = player, player.isPlaying{
             player.stop()
         }else{
             
-            let urlString = Bundle.main.path(forResource: "escrevendo", ofType: "mp3")
+            let urlString = Bundle.main.path(forResource: audio, ofType: "mp3")
             
             do {
                 try AVAudioSession.sharedInstance().setMode(.default)
